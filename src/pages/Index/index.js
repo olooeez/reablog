@@ -1,5 +1,13 @@
+import Banner from "../../components/Banner";
+
 const Index = () => {
-  return <h1>Index</h1>;
+  return (
+    <main>
+      <Banner />
+
+      <h1>Index</h1>
+    </main>
+  );
 };
 
 export default Index;
