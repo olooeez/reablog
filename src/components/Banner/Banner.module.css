@@ -28,7 +28,7 @@
 .images > .photo {
   position: absolute;
   right: 0;
-  bottom: -2vw;
+  bottom: -0.5vw;
   width: 18vw;
   border-radius: 50%;
 }
@@ -36,7 +36,7 @@
 .images > .circle {
   position: absolute;
   right: 7vw;
-  bottom: -1vw;
+  bottom: 0.5vw;
   width: 23vw;
 }
 
