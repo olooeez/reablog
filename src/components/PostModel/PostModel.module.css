@@ -1,0 +1,53 @@
+.postModelContainer {
+  color: var(--post-font-color);
+  position: relative;
+}
+
+.postModelBanner,
+.postModelTitle {
+  height: 204px;
+}
+
+.postModelBanner {
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.postModelTitle {
+  font-family: var(--secondary-font);
+  padding: 0 7.5rem;
+  font-size: 4rem;
+  display: flex;
+  align-items: center;
+}
+
+.postContentContainer {
+  padding: 2.5rem 7.5rem 4.5rem;
+}
+
+@media (max-width: 744px) {
+  .postContentContainer {
+    padding: 2rem 1.5rem 1.5rem;
+  }
+}
+
+@media (max-width: 744px) {
+  .postModelBanner,
+  .postModelTitle {
+    height: 104px;
+  }
+
+  .postModelTitle {
+    padding: 0 1rem;
+    font-size: 2rem;
+  }
+
+  .postContentContainer {
+    padding: 2rem 1rem 1.5rem;
+  }
+}
